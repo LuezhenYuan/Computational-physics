@@ -1,0 +1,82 @@
+plot sin(x)
+set xrange [-pi:pi]
+reset #
+set title "My first graph"
+set xlabel "Angle, \n in degrees"
+set ylabel "sin(angle)"
+replot cos(x)
+replot sin(x)/x
+set xtics ("0" 0, \
+	"90" pi/2, "-90" -pi/2, \
+	"" pi/4 1, "" -pi/4 1,  \
+	"" 3*pi/4 1, "" -3*pi/4 1)
+#help set xtics
+# 坐标轴刻度
+set xtics pi#主刻度距离
+set mxtics 2#两个主刻度之间分为两份
+
+
+
+
+set grid
+#unset grid
+set xlabel "Angle,\n in degrees"
+#set xlabel '{/Symbol abcdefghijklmnopqrstuvwxyz}'#需要set terminal wxt enh
+set ylabel "$sin(\\theta)$"
+set terminal png         # gnuplot recommends setting terminal before output
+set output "output.png"  # The output filename;
+replot
+
+# 多曲线绘图
+## 如果不再指定其他项，gnuplot 自动显示两个曲线图，从而它们可以互相区别 —— 在诸如 Windows 和 Xll 的终端中，gnuplot 使用不同的颜色。单色终端使用不同种类的线显示曲线图。
+plot sin(x) with linespoints pointtype 5, cos(x) w boxes lt 4 
+# help plot with
+# 在多条线中使用相同的绘图样式,使用 set style function lp
+
+# 图例(关键词)
+set key top left
+set key box
+plot [-pi:pi] sin(x) title "sinusoid" with linespoints pointtype 5, \
+cos(x) t 'cosine' w boxes lt 4
+
+# Multiplot
+set xrange [-pi:pi]
+# Uncomment the following to line up the axes
+# set lmargin 6
+# Gnuplot recommends setting the size and origin before going to
+# multiplot mode
+# This sets up bounding boxes and may be required on some terminals
+set size 1,1
+set origin 0,0
+# Done interactively, this takes gnuplot into multiplot mode
+# and brings up a new prompt ("multiplot >" instead of "gnuplot >")
+set multiplot
+# plot the first graph so that it takes a quarter of the screen
+set size 0.5,0.5
+set origin 0,0.5
+plot sin(x)
+# plot the second graph so that it takes a quarter of the screen
+set size 0.5,0.5
+set origin 0,0
+plot 1/sin(x)
+# plot the third graph so that it takes a quarter of the screen
+set size 0.5,0.5
+set origin 0.5,0.5
+plot cos(x)
+# plot the fourth graph so that it takes a quarter of the screen
+set size 0.5,0.5
+set origin 0.5,0
+plot 1/cos(x)
+# On some terminals, nothing gets plotted until this command is issued
+unset multiplot
+# remove all customization
+reset
+# chapter 4 for a more detailed discussion of input file formats
+# Multiple data sets per file
+# For gnuplot, blank lines in a data file are significant. A single blank line indicates a discontinuity in the data.
+# In contrast, double blank lines are used to distinguish data sets in the file. Each set can be addressed in the plot command as if it were in a separate file using the index directive to plot .
+plot "data" index 1 using 1:2 w linespoints
+# 文件分隔符(每行)
+set datafile separator ","
+pause -1
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1457757914 source:/home/luezhen/KuaiPan/new/计算物理/作业2实验数据的简单统计处理/src/SimpleStatistics/main.cpp
+	<iostream>
+	<random>
+	<fstream>
+	<string>
+	<vector>
+

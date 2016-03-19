@@ -1,0 +1,12 @@
+#Dataset
+#N:3,n:1000,s:10
+average	0.505343
+average standard deviation	0.00525362
+
+
+#Dataset
+#N:10,n:998,s:10
+average	0.497426
+average standard deviation	0.00286354
+
+
