@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1458473186 source:/home/luezhen/KuaiPan/new/计算物理/作业5线性代数方程组求解/src/LinearEquationSet/main.cpp
+	<iostream>
+	<cmath>
+

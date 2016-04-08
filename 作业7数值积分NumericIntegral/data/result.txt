@@ -1,0 +1,82 @@
+Numeric Integration
+epsilon [0.001]:0.1
+Simpson rule:
+Converge at 4th iteration.
+Result: 0.9991289812
+Trapezoidal rule:
+Converge at 3th iteration.
+Result: 0.9985993240
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.01
+Simpson rule:
+Converge at 4th iteration.
+Result: 0.9991289812
+Trapezoidal rule:
+Converge at 3th iteration.
+Result: 0.9985993240
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.001
+Simpson rule:
+Converge at 4th iteration.
+Result: 0.9991289812
+Trapezoidal rule:
+Converge at 3th iteration.
+Result: 0.9985993240
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.0001
+Simpson rule:
+Converge at 5th iteration.
+Result: 0.9991410221
+Trapezoidal rule:
+Converge at 6th iteration.
+Result: 0.9991325958
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.00001
+Simpson rule:
+Converge at 6th iteration.
+Result: 0.9991418250
+Trapezoidal rule:
+Converge at 7th iteration.
+Result: 0.9991395559
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.000001
+Simpson rule:
+Converge at 6th iteration.
+Result: 0.9991418250
+Trapezoidal rule:
+Converge at 9th iteration.
+Result: 0.9991417341
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.0000001
+Simpson rule:
+Converge at 7th iteration.
+Result: 0.9991418759
+Trapezoidal rule:
+Converge at 11th iteration.
+Result: 0.9991418703
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.00000001
+Simpson rule:
+Converge at 8th iteration.
+Result: 0.9991418791
+Trapezoidal rule:
+Converge at 12th iteration.
+Result: 0.9991418771
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.000000001
+Simpson rule:
+Converge at 9th iteration.
+Result: 0.9991418793
+Trapezoidal rule:
+Converge at 14th iteration.
+Result: 0.9991418792
+Exit -1. Continue 1 [-1]:1
+epsilon [0.001]:0.0000000001
+Simpson rule:
+Converge at 10th iteration.
+Result: 0.9991418793
+Trapezoidal rule:
+Converge at 16th iteration.
+Result: 0.9991418793
+Exit -1. Continue 1 [-1]:-1
+

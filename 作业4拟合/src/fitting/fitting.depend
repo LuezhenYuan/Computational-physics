@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1458455216 source:/home/luezhen/KuaiPan/new/计算物理/作业4拟合/src/fitting/main.cpp
+	<iostream>
+	<string>
+	<cmath>
+	<cstdlib>
+	"SimpleStatisticsProject.h"
+
+1458388987 /home/luezhen/KuaiPan/new/计算物理/作业4拟合/src/fitting/SimpleStatisticsProject.h
+	<iostream>
+	<random>
+	<fstream>
+	<string>
+	<vector>
+
+1458390400 source:/home/luezhen/KuaiPan/new/计算物理/作业4拟合/src/fitting/SimpleStatisticsProject.cpp
+	"SimpleStatisticsProject.h"
+

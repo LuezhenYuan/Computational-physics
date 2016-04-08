@@ -1,9 +1,9 @@
-# 第一次作业-简单物理实验的模拟
+# 第六次作业-实验数据的平滑(Smoothing)
 
 # 各目录简介
-	\data 存放3个模拟的数据
+	\data 存放程序运行的数据
 	\doc 存放报告
-	\result 存放3张利用数据做的图.制图方法在\result\README.md文件中描述
+	\result 存放利用数据做的图.制图采用QtiPlot
 	\src 存放程序源代码
 	README.md 本文
 
@@ -32,5 +32,5 @@ gcc -v
 	(compiled with Qt 4.8.4 and Poppler 0.24.3)
 	Copyright (c) 2003-2013 by Pascal Brachet
 
-## Gnuplot 绘图软件
-	gnuplot 4.6 patchlevel 4
+## QtiPlot 0.9.8.9 svn 2288
+用于绘图

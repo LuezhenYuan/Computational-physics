@@ -1,0 +1,13 @@
+列主元素消去法
+Solution:
+1,2,3,1,
+
+原高斯消去法
+Solution:
+1,2,3,1,
+
+塞得尔迭代法
+Iteration method
+1,2,2.99999,0.999982,
+Iteration times:28
+

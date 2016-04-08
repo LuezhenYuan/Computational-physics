@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1459609216 source:/home/luezhen/KuaiPan/new/计算物理/作业7数值积分NumericIntegral/src/Integral/main.cpp
+	<iostream>
+	<cmath>
+

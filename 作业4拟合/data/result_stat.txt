@@ -1,0 +1,600 @@
+#Dataset
+#N:1,n:1000,s:1
+average	0.512691
+average standard deviation	0.00934643
+
+
+#Dataset
+#N:2,n:1000,s:1
+average	0.506423
+average standard deviation	0.0063012
+
+
+#Dataset
+#N:3,n:1000,s:1
+average	0.505985
+average standard deviation	0.00539
+
+
+#Dataset
+#N:4,n:1000,s:1
+average	0.510699
+average standard deviation	0.0046551
+
+
+#Dataset
+#N:5,n:1000,s:1
+average	0.504945
+average standard deviation	0.00410297
+
+
+#Dataset
+#N:6,n:1000,s:1
+average	0.492831
+average standard deviation	0.00378095
+
+
+#Dataset
+#N:7,n:1000,s:1
+average	0.501825
+average standard deviation	0.00346707
+
+
+#Dataset
+#N:8,n:1000,s:1
+average	0.493668
+average standard deviation	0.00327529
+
+
+#Dataset
+#N:9,n:1000,s:1
+average	0.501027
+average standard deviation	0.00301867
+
+
+#Dataset
+#N:10,n:1000,s:1
+average	0.498477
+average standard deviation	0.00291697
+
+
+#Dataset
+#N:11,n:1000,s:1
+average	0.499272
+average standard deviation	0.00274571
+
+
+#Dataset
+#N:12,n:1000,s:1
+average	0.500977
+average standard deviation	0.00265712
+
+
+#Dataset
+#N:13,n:1000,s:1
+average	0.498795
+average standard deviation	0.00248758
+
+
+#Dataset
+#N:14,n:1000,s:1
+average	0.495416
+average standard deviation	0.00247771
+
+
+#Dataset
+#N:15,n:1000,s:1
+average	0.502307
+average standard deviation	0.00233764
+
+
+#Dataset
+#N:16,n:1000,s:1
+average	0.498471
+average standard deviation	0.00229452
+
+
+#Dataset
+#N:17,n:1000,s:1
+average	0.49905
+average standard deviation	0.00221232
+
+
+#Dataset
+#N:18,n:1000,s:1
+average	0.502444
+average standard deviation	0.00211277
+
+
+#Dataset
+#N:19,n:1000,s:1
+average	0.498833
+average standard deviation	0.00213668
+
+
+#Dataset
+#N:20,n:1000,s:1
+average	0.501536
+average standard deviation	0.00207328
+
+
+#Dataset
+#N:21,n:1000,s:1
+average	0.504425
+average standard deviation	0.00201727
+
+
+#Dataset
+#N:22,n:1000,s:1
+average	0.499727
+average standard deviation	0.00191824
+
+
+#Dataset
+#N:23,n:1000,s:1
+average	0.497041
+average standard deviation	0.00195774
+
+
+#Dataset
+#N:24,n:1000,s:1
+average	0.499915
+average standard deviation	0.00183174
+
+
+#Dataset
+#N:25,n:1000,s:1
+average	0.495173
+average standard deviation	0.00178979
+
+
+#Dataset
+#N:26,n:1000,s:1
+average	0.498245
+average standard deviation	0.00178355
+
+
+#Dataset
+#N:27,n:1000,s:1
+average	0.500743
+average standard deviation	0.00172372
+
+
+#Dataset
+#N:28,n:1000,s:1
+average	0.498286
+average standard deviation	0.00169425
+
+
+#Dataset
+#N:29,n:1000,s:1
+average	0.499278
+average standard deviation	0.00168935
+
+
+#Dataset
+#N:30,n:1000,s:1
+average	0.499847
+average standard deviation	0.00172602
+
+
+#Dataset
+#N:31,n:1000,s:1
+average	0.499966
+average standard deviation	0.00159676
+
+
+#Dataset
+#N:32,n:1000,s:1
+average	0.502101
+average standard deviation	0.00165881
+
+
+#Dataset
+#N:33,n:1000,s:1
+average	0.499827
+average standard deviation	0.00158065
+
+
+#Dataset
+#N:34,n:1000,s:1
+average	0.501088
+average standard deviation	0.00159136
+
+
+#Dataset
+#N:35,n:1000,s:1
+average	0.499178
+average standard deviation	0.0015583
+
+
+#Dataset
+#N:36,n:1000,s:1
+average	0.499893
+average standard deviation	0.00145738
+
+
+#Dataset
+#N:37,n:1000,s:1
+average	0.498631
+average standard deviation	0.0014721
+
+
+#Dataset
+#N:38,n:1000,s:1
+average	0.496033
+average standard deviation	0.00150308
+
+
+#Dataset
+#N:39,n:1000,s:1
+average	0.497858
+average standard deviation	0.00139459
+
+
+#Dataset
+#N:40,n:1000,s:1
+average	0.500639
+average standard deviation	0.0013852
+
+
+#Dataset
+#N:41,n:1000,s:1
+average	0.500677
+average standard deviation	0.00139508
+
+
+#Dataset
+#N:42,n:1000,s:1
+average	0.50153
+average standard deviation	0.00139755
+
+
+#Dataset
+#N:43,n:1000,s:1
+average	0.499454
+average standard deviation	0.0013812
+
+
+#Dataset
+#N:44,n:1000,s:1
+average	0.498168
+average standard deviation	0.00136453
+
+
+#Dataset
+#N:45,n:1000,s:1
+average	0.498734
+average standard deviation	0.00134254
+
+
+#Dataset
+#N:46,n:1000,s:1
+average	0.501555
+average standard deviation	0.00132058
+
+
+#Dataset
+#N:47,n:1000,s:1
+average	0.499185
+average standard deviation	0.00127471
+
+
+#Dataset
+#N:48,n:1000,s:1
+average	0.500695
+average standard deviation	0.00134784
+
+
+#Dataset
+#N:49,n:1000,s:1
+average	0.49819
+average standard deviation	0.00132806
+
+
+#Dataset
+#N:50,n:1000,s:1
+average	0.501497
+average standard deviation	0.00130499
+
+
+#Dataset
+#N:1,n:1000,s:1
+average	0.502567
+average standard deviation	0.00906889
+
+
+#Dataset
+#N:2,n:1000,s:1
+average	0.487612
+average standard deviation	0.00643378
+
+
+#Dataset
+#N:3,n:1000,s:1
+average	0.499805
+average standard deviation	0.00521291
+
+
+#Dataset
+#N:4,n:1000,s:1
+average	0.498716
+average standard deviation	0.00467849
+
+
+#Dataset
+#N:5,n:1000,s:1
+average	0.497829
+average standard deviation	0.00405011
+
+
+#Dataset
+#N:6,n:1000,s:1
+average	0.499643
+average standard deviation	0.00364218
+
+
+#Dataset
+#N:7,n:1000,s:1
+average	0.498479
+average standard deviation	0.00348896
+
+
+#Dataset
+#N:8,n:1000,s:1
+average	0.500942
+average standard deviation	0.00316508
+
+
+#Dataset
+#N:9,n:1000,s:1
+average	0.497944
+average standard deviation	0.00304027
+
+
+#Dataset
+#N:10,n:1000,s:1
+average	0.499898
+average standard deviation	0.00292517
+
+
+#Dataset
+#N:11,n:1000,s:1
+average	0.501787
+average standard deviation	0.00267766
+
+
+#Dataset
+#N:12,n:1000,s:1
+average	0.501558
+average standard deviation	0.00265103
+
+
+#Dataset
+#N:13,n:1000,s:1
+average	0.498919
+average standard deviation	0.00259975
+
+
+#Dataset
+#N:14,n:1000,s:1
+average	0.499355
+average standard deviation	0.00244985
+
+
+#Dataset
+#N:15,n:1000,s:1
+average	0.502774
+average standard deviation	0.00234811
+
+
+#Dataset
+#N:16,n:1000,s:1
+average	0.497401
+average standard deviation	0.00227141
+
+
+#Dataset
+#N:17,n:1000,s:1
+average	0.498687
+average standard deviation	0.00225854
+
+
+#Dataset
+#N:18,n:1000,s:1
+average	0.496958
+average standard deviation	0.00217043
+
+
+#Dataset
+#N:19,n:1000,s:1
+average	0.498476
+average standard deviation	0.00215028
+
+
+#Dataset
+#N:20,n:1000,s:1
+average	0.498432
+average standard deviation	0.00199843
+
+
+#Dataset
+#N:21,n:1000,s:1
+average	0.503016
+average standard deviation	0.00202762
+
+
+#Dataset
+#N:22,n:1000,s:1
+average	0.498549
+average standard deviation	0.00194386
+
+
+#Dataset
+#N:23,n:1000,s:1
+average	0.501238
+average standard deviation	0.00189027
+
+
+#Dataset
+#N:24,n:1000,s:1
+average	0.500491
+average standard deviation	0.00186808
+
+
+#Dataset
+#N:25,n:1000,s:1
+average	0.500148
+average standard deviation	0.00184924
+
+
+#Dataset
+#N:26,n:1000,s:1
+average	0.500958
+average standard deviation	0.00180583
+
+
+#Dataset
+#N:27,n:1000,s:1
+average	0.49876
+average standard deviation	0.00177994
+
+
+#Dataset
+#N:28,n:1000,s:1
+average	0.501708
+average standard deviation	0.00174632
+
+
+#Dataset
+#N:29,n:1000,s:1
+average	0.500348
+average standard deviation	0.00175807
+
+
+#Dataset
+#N:30,n:1000,s:1
+average	0.500671
+average standard deviation	0.00166888
+
+
+#Dataset
+#N:31,n:1000,s:1
+average	0.503484
+average standard deviation	0.00165712
+
+
+#Dataset
+#N:32,n:1000,s:1
+average	0.501109
+average standard deviation	0.00164525
+
+
+#Dataset
+#N:33,n:1000,s:1
+average	0.499587
+average standard deviation	0.00155563
+
+
+#Dataset
+#N:34,n:1000,s:1
+average	0.497142
+average standard deviation	0.00151656
+
+
+#Dataset
+#N:35,n:1000,s:1
+average	0.50042
+average standard deviation	0.00147006
+
+
+#Dataset
+#N:36,n:1000,s:1
+average	0.500652
+average standard deviation	0.00150087
+
+
+#Dataset
+#N:37,n:1000,s:1
+average	0.500939
+average standard deviation	0.0015172
+
+
+#Dataset
+#N:38,n:1000,s:1
+average	0.501025
+average standard deviation	0.00147961
+
+
+#Dataset
+#N:39,n:1000,s:1
+average	0.497859
+average standard deviation	0.00149358
+
+
+#Dataset
+#N:40,n:1000,s:1
+average	0.500551
+average standard deviation	0.00139313
+
+
+#Dataset
+#N:41,n:1000,s:1
+average	0.499462
+average standard deviation	0.00142977
+
+
+#Dataset
+#N:42,n:1000,s:1
+average	0.498058
+average standard deviation	0.0013979
+
+
+#Dataset
+#N:43,n:1000,s:1
+average	0.499605
+average standard deviation	0.00135037
+
+
+#Dataset
+#N:44,n:1000,s:1
+average	0.500576
+average standard deviation	0.00142928
+
+
+#Dataset
+#N:45,n:1000,s:1
+average	0.501314
+average standard deviation	0.00134929
+
+
+#Dataset
+#N:46,n:1000,s:1
+average	0.498725
+average standard deviation	0.00130928
+
+
+#Dataset
+#N:47,n:1000,s:1
+average	0.49825
+average standard deviation	0.00133182
+
+
+#Dataset
+#N:48,n:1000,s:1
+average	0.499988
+average standard deviation	0.00126648
+
+
+#Dataset
+#N:49,n:1000,s:1
+average	0.499977
+average standard deviation	0.00134067
+
+
+#Dataset
+#N:50,n:1000,s:1
+average	0.498498
+average standard deviation	0.00134836
+
+

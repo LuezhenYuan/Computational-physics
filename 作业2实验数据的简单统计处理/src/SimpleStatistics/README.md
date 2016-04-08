@@ -4,8 +4,8 @@
 $ g++ -std=c++11 -o try main.cpp
 ```
 注意：需要编译器开启支持c++11标准的选项！
-Attention: Have your compiler follow the c++11 ISO C++ language standard [-std=c++11]
-You can modify your "Global compiler settings": find the "c++11" like term and allow it!
+	Attention: Have your compiler follow the c++11 ISO C++ language standard [-std=c++11]
+	You can modify your "Global compiler settings": find the "c++11" like term and allow it!
 
 # 程序流程
 1. 产生随机数,形成数据集(输入N,n,输出data,并输出到文件out(文件名str,str_dataset.txt))

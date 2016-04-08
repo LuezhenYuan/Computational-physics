@@ -1,0 +1,70 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}  
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{float}
+%\usepackage{clrscode}
+\usepackage[]{algorithm2e}
+\usepackage{graphicx}
+% Set the margin of document.
+\usepackage[top=10mm, bottom=12.5mm, left=12.5mm, right=12.5mm]{geometry}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{listings}
+\lstset{
+  basicstyle=\small,
+  numbers=left,
+  keywordstyle=\color{blue},
+  numberstyle={\tiny\color{lightgray}},
+  stepnumber=1, %行号会逐行往上递增
+  numbersep=5pt,
+  commentstyle=\small\color{red},
+  backgroundcolor=\color[rgb]{0.95,1.0,1.0},
+  showspaces=false,
+  showtabs=false,
+  frame=shadowbox, framexleftmargin=5mm, rulesepcolor=\color{red!20!green!20!blue!20!},
+% frame=single,
+%  TABframe=single,
+  tabsize=4,
+  breaklines=tr,
+  extendedchars=false %这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题
+}
+\renewcommand\figurename{图}
+\renewcommand\tablename{表}
+\title{线性代数方程组的求解}
+\author{袁略真\\3130103964\\生物信息学\\浙江大学}
+\begin{document}
+\maketitle
+
+\section{线性代数方程组的解法}
+\subsection{解析法}
+线性代数方程组的精确求解可使用高斯消去法. 高斯消去法通过不断消元,得到$x_n$的解,然后回代得到其余变量的解. 每次消元有如下通式:
+\begin{equation}
+\left\lbrace
+\begin{aligned}
+B_k^k =& \frac{B_k^{k-1}}{A_{kk}^{k-1}}\ k=1,..,n\\
+A_{kj}^k =& \frac{A_{kj}^{k-1}}{A_{kk}^{k-1}},\\
+A_{ij}^k =& A_{ij}^{k-1} - A_{ik}^{k-1}*A_{kj}^k,\ i,j=k+1,..,n\\
+B_j^k =& B_j^{k-1} - A_{jk}^{k-1}*B_k^k\\
+\end{aligned}
+\right.
+\end{equation}
+\subsubsection{改进的列主元素消去法}
+原始的列主元素消去法需要将系数矩阵A的行互换(如第k和第j行).这通常需要申请一片暂时的空间,进行3*(n-k+1)次赋值操作.
+
+改进的方法是将第j行加到第k行上去(A(k,k)同号时加,异号时减).方程组的解不变.
+\subsection{数值法}
+数值法求解线性方程组可用塞得尔迭代法.相比于高斯消元法,迭代法实现起来更简单,并且可以处理非线性方程组.
+
+迭代法需要给定`解'的初值,然后根据如下形式解反复迭代,直到收敛.若能收敛,则收敛到精确解.
+$$x_i = \frac{B_{i}}{A_{ii}} - \frac{1}{A_{ii}} \sum\limits_{j=1,j\neq i}^n A_{ij}x_j,\ i=1,2,..,n$$
+
+\section{求解结果}
+高斯消元法(使用列主元素消去法与否结果相同):
+$$\textbf{x} = [1,2,3,1]^T$$
+
+塞得尔迭代法(迭代28次收敛,$\varepsilon = 0.00001$):
+$$\textbf{x} = [1,2,2.99999,0.999982]^T$$
+\end{document}

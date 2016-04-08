@@ -1,4 +1,5 @@
 # 算法
+```{c++}
 Input: x0 xn n
 Output: matrix of x,predicted value y,the real value yreal
 //n+1个点,包括x0,x1
@@ -13,4 +14,4 @@ for xt=x0:xn(sample 100 points)
 				Aj*=(xt-x[i])/(x[j]-x[i])
 		result+=Aj*y[j]
 	print xt,result,yreal
-
+```

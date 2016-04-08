@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1458482245 source:/home/luezhen/KuaiPan/new/计算物理/作业6Smoothing(Filtering)/src/Smoothing/SimpleStatisticsProject.cpp
+	"SimpleStatisticsProject.h"
+
+1458482228 /home/luezhen/KuaiPan/new/计算物理/作业6Smoothing(Filtering)/src/Smoothing/SimpleStatisticsProject.h
+	<iostream>
+	<random>
+	<fstream>
+	<string>
+	<vector>
+
+1459564733 source:/home/luezhen/KuaiPan/new/计算物理/作业6Smoothing(Filtering)/src/Smoothing/main.cpp
+	<iostream>
+	<string>
+	"SimpleStatisticsProject.h"
+	<fstream>
+
+1459564733 source:/home/luezhen/KuaiPan/new/计算物理/作业6SmoothingFiltering/src/Smoothing/main.cpp
+	<iostream>
+	<string>
+	"SimpleStatisticsProject.h"
+	<fstream>
+
+1458482228 /home/luezhen/KuaiPan/new/计算物理/作业6SmoothingFiltering/src/Smoothing/SimpleStatisticsProject.h
+	<iostream>
+	<random>
+	<fstream>
+	<string>
+	<vector>
+
+1458482245 source:/home/luezhen/KuaiPan/new/计算物理/作业6SmoothingFiltering/src/Smoothing/SimpleStatisticsProject.cpp
+	"SimpleStatisticsProject.h"
+
