@@ -1,21 +1,21 @@
-# 第七次作业-数值积分(Numeric Integration)
+# Numeric Intergration
 
-# 各目录简介
-	\data 存放程序运行的数据
-	\doc 存放报告
-	\result 存放利用数据做的图.制图采用QtiPlot
-	\src 存放程序源代码
-	README.md 本文
+# Directories
+	\data output data
+	\doc report.pdf
+	\result Figures drawn from the data. Use QtiPlot.
+	\src Source code
+	README.md This file
 
-# 使用程序及版本
+# Software Version
 
-## 操作系统
+## Operating System
 ```{bash} 
 uname -a
 ```
 	Linux luezhen-ThinkPad-Edge-E431 3.16.0-37-generic #51~14.04.1-Ubuntu SMP Wed May 6 15:23:14 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
 
-## GCC (c++)编译器
+## GCC (c++) Compiler
 ```{bash} 
 gcc -v
 ```
@@ -27,10 +27,9 @@ gcc -v
 	Thread model: posix
 	gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
 
-## Texmaker 文本编辑软件
+## Texmaker - a latex editor 
 	Texmaker 4.1
 	(compiled with Qt 4.8.4 and Poppler 0.24.3)
 	Copyright (c) 2003-2013 by Pascal Brachet
 
 ## QtiPlot 0.9.8.9 svn 2288
-用于绘图

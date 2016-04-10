@@ -1,30 +1,21 @@
-# 第二次作业-实验数据的统计处理
+# 第二次作业-Simple Statistic Analysis
 
-# 各目录简介
-	\data 存放模拟的数据(各数据介绍请看\data\README.md文件)
-	\doc 存放报告
-	\result 存放4张利用数据做的图.制图采用QtiPlot
-	\src 存放程序源代码
-	README.md 本文
+# Directories
+	\data output data
+	\doc report.pdf
+	\result Figures drawn from the data. Use QtiPlot.
+	\src Source code
+	README.md This file
 
-# 程序编译的注意事项
-可行的编译方法:  
-```{bash}
-$ g++ -std=c++11 -o try main.cpp
-```
-注意：需要编译器开启支持c++11标准的选项！
-	Attention: Have your compiler follow the c++11 ISO C++ language standard [-std=c++11]
-	You can modify your "Global compiler settings": find the "c++11" like term and allow it!
+# Software Version
 
-# 使用程序及版本
-
-## 操作系统
+## Operating System
 ```{bash} 
 uname -a
 ```
 	Linux luezhen-ThinkPad-Edge-E431 3.16.0-37-generic #51~14.04.1-Ubuntu SMP Wed May 6 15:23:14 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
 
-## GCC (c++)编译器
+## GCC (c++) Compiler
 ```{bash} 
 gcc -v
 ```
@@ -36,14 +27,14 @@ gcc -v
 	Thread model: posix
 	gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
 
-## Texmaker 文本编辑软件
+## Texmaker - a latex editor 
 	Texmaker 4.1
 	(compiled with Qt 4.8.4 and Poppler 0.24.3)
 	Copyright (c) 2003-2013 by Pascal Brachet
 
 ## QtiPlot 0.9.8.9 svn 2288
 	科学绘图软件,Linux系统下部分替代Origin
-## AWK编译器
+## AWK
 	GNU Awk 4.0.1  
 	Copyright (C) 1989, 1991-2012 Free Software Foundation.  
 	它是一个文本处理语言,使用十分简便.对于处理小型任务,简便程度超过perl语言,在命令行下输入一行命令即可执行.该语言支持正则表达式,以及基本程序控制流.
