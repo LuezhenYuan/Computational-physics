@@ -98,9 +98,9 @@ This is one of the special courses for the students in physics department. The m
     13.5 简单抽样法及其应用
 
 ### 第十四章 Monte Carlo模拟方法II-重要抽样(2学时)Monte Carlo Simulation 2
-    14.1 重要抽样思想介绍
+    14.1 重要抽样思想介绍 Importance sampling
     14.2 Metropolis 重要抽样法
-    14.3 Ising 模型的Monte Carlo 模拟
+    14.3 Ising 模型的Monte Carlo 模拟 MCMC and Ising model
 
 ### 第十五章 元胞自动机模拟(2学时)Cellular Automata
     15.1 元胞自动机模拟简介
@@ -111,3 +111,25 @@ This is one of the special courses for the students in physics department. The m
 ## 五、参考教材及相关资料(Reference Books)
 陈锺贤,计算物理学,哈尔滨工业大学出版社 Zhongxian Chen, Computational Physics, 2001, HIT press
 马文淦,计算物理学,科学出版社 Wengan Ma, Computational Physics, Science press( China )
+
+# What I have learnt in the computational physics course
+
+## A research in computational physics contains three steps: 
+1. Construct Model
+2. Implement in c++ or other programming language. Use sampling method like Monte Carlo simulation, or use numeric approaches.
+3. Data analysis. Find pattern.
+
+## Good coding style -- Comments
+1. What can this program do
+2. Compiler, how to compile
+3. Author, update time
+4. Parameter: what's the meaning. The range of them.
+5. Interprete what this coding block do. Comments for important statement.
+
+## How to analysis data?
+1. Data comes from experiments or computation.
+2. From histogram to distribution.
+3. Expected value(is the truth-value), variance, 
+4. Interpolation
+2. Use graph and table. Clear to see(font size...). Provide enough comments in the caption(paramters used for generating data, important result...).
+5. Analysis time series data. Cycle exist(change dt)? correlation
